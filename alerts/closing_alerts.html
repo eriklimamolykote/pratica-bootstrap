@@ -1,0 +1,81 @@
+<!-- Original author: Refsnes Data and w3Schools team (with adaptations)
+Copyright 1999-2021 by Refsnes Data. All Rights Reserved. -->
+<!DOCTYPE html>
+
+<!-- Beginning of HTML file -->
+<!--Set the language to portuguese-->
+<html lang="pt">
+
+    <!-- Head Section-->
+    <head>
+            <title>Exemplo Bootstrap</title>
+            <meta charset="utf-8">
+            <!-- Set the width of the page to follow the screen-width
+            of the device and the initial zoom level when the page
+            is first loaded by the browser -->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- The next lines are references to external links that makes
+            possible the use of Bootstrap -->
+            <!-- CSS file-->
+            <link rel="stylesheet"
+                href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <!-- Reference to jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <!-- Reference to Popper positioning engine -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <!-- Reference to Bootstrap -->
+            <script src="https://maxcdn.bootsrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+    </head> <!-- End of Head Section -->
+
+    <!-- Body Section -->
+    <body>
+        
+        <!-- Container -->
+        <div class="container">
+            <h2>Alertas</h2>
+            <p>O botão com a classe="close" e data-dismiss="alert" é usado para 
+                fechar a caixa de alerta.</p>
+            <p>A classe alert-dismissible adiciona algum espaçamento extra para 
+                fechar o botão.</p>
+            <div class="alert alert-success alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Sucesso!</strong> Esta caixa de alerta pode indicar uma ação 
+                    positiva ou de sucesso.
+            </div>           
+            <div class="alert alert-info alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Info!</strong> Esta caixa de alerta pode indicar uma ação 
+                    ou informação neutra.
+            </div>           
+            <div class="alert alert-warning alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Aviso!</strong> Esta caixa de alerta pode indicar um aviso que
+                    precisa de atenção. 
+            </div>           
+            <div class="alert alert-danger alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Perigo!</strong> Esta caixa de alerta pode indicar uma ação 
+                    negativa ou potencialmente perigosa.
+            </div>           
+            <div class="alert alert-primary alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Primária!</strong> Indica uma ação importante
+            </div>           
+            <div class="alert alert-secondary alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Secundária!</strong> Indica uma ação menos importante.
+            </div>           
+            <div class="alert alert-dark alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Escura!</strong> Alerta cinza escuro.
+            </div>           
+            <div class="alert alert-light alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Clara!</strong> Alerta cinza claro.
+            </div>           
+        </div> <!-- End of Container div -->
+
+    </body> <!-- End of Body Section -->
+
+</html> <!-- End Of HTML file -->    
