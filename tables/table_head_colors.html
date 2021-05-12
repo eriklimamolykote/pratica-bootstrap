@@ -1,0 +1,82 @@
+<!-- Original author: Refsnes Data and w3Schools team (with adaptations)
+Copyright 1999-2021 by Refsnes Data. All Rights Reserved. -->
+<!DOCTYPE html>
+
+<!-- Beginning of HTML file -->
+<!--Set the language to portuguese-->
+<html lang="pt">
+
+    <!-- Head Section-->
+    <head>
+            <title>Exemplo Bootstrap</title>
+            <meta charset="utf-8">
+            <!-- Set the width of the page to follow the screen-width
+            of the device and the initial zoom level when the page
+            is first loaded by the browser -->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- The next lines are references to external links that makes
+            possible the use of Bootstrap -->
+            <!-- CSS file-->
+            <link rel="stylesheet"
+                href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <!-- Reference to jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <!-- Reference to Popper positioning engine -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <!-- Reference to Bootstrap -->
+            <script src="https://maxcdn.bootsrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+    </head> <!-- End of Head Section -->
+
+    <!-- Body Section -->
+    <body>
+        
+        <!-- Container -->
+        <div class="container">
+            <h2>Cores de Cabeçalho de Tabela</h2>
+            <p>A classe .thead-dark adiciona um fundo escuro para cabeçalhos 
+                de tabela e a classe .thead-light adicionar um fundo cinza 
+                para cabeçalhos de tabela:</p>
+            <!-- Table -->    
+            <table class="table">
+                <!-- Table Head -->
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Email</th>
+                    </tr>    
+                </thead> <!-- End of Table Head -->
+                <!-- Table Body -->
+                <tbody>
+                    <tr>
+                        <td>Erik</td>
+                        <td>Lima</td>
+                        <td>your@email.com</td>
+                    </tr>    
+                </tbody> <!-- End of Table Body -->
+            </table> <!-- End of Table -->
+            <!-- Table 2 -->    
+            <table class="table">
+                <!-- Table Head -->
+                <thead class="thead-light">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Email</th>
+                    </tr>    
+                </thead> <!-- End of Table Head -->
+                <!-- Table Body -->
+                <tbody>
+                    <tr>
+                        <td>Erik</td>
+                        <td>Lima</td>
+                        <td>your@email.com</td>
+                    </tr>    
+                </tbody> <!-- End of Table Body -->
+            </table> <!-- End of Table 2 -->           
+        </div> <!-- End of Container div -->
+
+    </body> <!-- End of Body Section -->
+
+</html> <!-- End Of HTML file -->    
