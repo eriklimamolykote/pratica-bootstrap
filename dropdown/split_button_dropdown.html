@@ -1,0 +1,106 @@
+<!-- Original author: Refsnes Data and w3Schools team (with adaptations)
+Copyright 1999-2021 by Refsnes Data. All Rights Reserved. -->
+<!DOCTYPE html>
+
+<!-- Beginning of HTML file -->
+<!--Set the language to portuguese-->
+<html lang="pt">
+
+    <!-- Head Section-->
+    <head>
+            <title>Exemplo Bootstrap</title>
+            <meta charset="utf-8">
+            <!-- Set the width of the page to follow the screen-width
+            of the device and the initial zoom level when the page
+            is first loaded by the browser -->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- The next lines are references to external links that makes
+            possible the use of Bootstrap -->
+            <!-- CSS file-->
+            <link rel="stylesheet"
+                href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <!-- Reference to jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <!-- Reference to Popper positioning engine -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <!-- Reference to Bootstrap -->
+            <script src="https://maxcdn.bootsrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+    </head> <!-- End of Head Section -->
+
+    <!-- Body Section -->
+    <body>
+        
+        <!-- Container -->
+        <div class="container">
+            <h2>Grupos de Botões Aninhados</h2>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Primário</button>
+                <button type="button" class="btn btn-primary dropdown-toggle 
+                    dropdown-toggle-split" data-toggle="dropdown">
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                </div>
+            </div>
+            
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary">Secundário</button>
+                <button type="button" class="btn btn-secondary dropdown-toggle 
+                    dropdown-toggle-split" data-toggle="dropdown">
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-success">Sucesso</button>
+                <button type="button" class="btn btn-success dropdown-toggle 
+                    dropdown-toggle-split" data-toggle="dropdown">
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-info">Informação</button>
+                <button type="button" class="btn btn-info dropdown-toggle 
+                    dropdown-toggle-split" data-toggle="dropdown">
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-warning">Alerta</button>
+                <button type="button" class="btn btn-warning dropdown-toggle 
+                    dropdown-toggle-split" data-toggle="dropdown">
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger">Perigo</button>
+                <button type="button" class="btn btn-danger dropdown-toggle 
+                    dropdown-toggle-split" data-toggle="dropdown">
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                </div>
+            </div>
+        </div> <!-- End Container div -->
+
+    </body> <!-- End of Body Section -->
+
+</html> <!-- End Of HTML file -->    
