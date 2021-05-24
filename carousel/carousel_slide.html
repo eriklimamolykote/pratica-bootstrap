@@ -1,0 +1,81 @@
+<!-- Original author: Refsnes Data and w3Schools team (with adaptations)
+Copyright 1999-2021 by Refsnes Data. All Rights Reserved. -->
+<!DOCTYPE html>
+
+<!-- Beginning of HTML file -->
+<!--Set the language to portuguese-->
+<html lang="pt">
+
+    <!-- Head Section-->
+    <head>
+            <title>Exemplo Bootstrap</title>
+            <meta charset="utf-8">
+            <!-- Set the width of the page to follow the screen-width
+            of the device and the initial zoom level when the page
+            is first loaded by the browser -->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- The next lines are references to external links that makes
+            possible the use of Bootstrap -->
+            <!-- CSS file-->
+            <link rel="stylesheet"
+                href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <!-- Reference to jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <!-- Reference to Popper positioning engine -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <!-- Reference to Bootstrap -->
+            <script src="https://maxcdn.bootsrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+            <style>
+                /* Make the image fully responsive */
+                .carousel-inner img {
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
+
+    </head> <!-- End of Head Section -->
+
+    <!-- Body Section -->
+    <body>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="ryu.png" alt="Ryu" width="320" height="200">
+              </div>
+
+              <div class="carousel-item">
+                <img src="honda.jpg" alt="E. Honda" width="320" 
+                    height="200">
+              </div>
+
+              <div class="carousel-item">
+                <img src="blanka.jpg" alt="Blanka" width="320" 
+                    height="200">
+              </div>
+
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+             
+    </body> <!-- End of Body Section -->
+
+</html> <!-- End Of HTML file -->    
