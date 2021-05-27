@@ -1,0 +1,77 @@
+<!-- Original author: Refsnes Data and w3Schools team (with adaptations)
+Copyright 1999-2021 by Refsnes Data. All Rights Reserved. -->
+<!DOCTYPE html>
+
+<!-- Beginning of HTML file -->
+<!--Set the language to portuguese-->
+<html lang="pt">
+
+    <!-- Head Section-->
+    <head>
+            <title>Exemplo Bootstrap</title>
+            <meta charset="utf-8">
+            <!-- Set the width of the page to follow the screen-width
+            of the device and the initial zoom level when the page
+            is first loaded by the browser -->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- The next lines are references to external links that makes
+            possible the use of Bootstrap -->
+            <!-- CSS file-->
+            <link rel="stylesheet"
+                href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+            <!-- <link rel="stylesheet"
+                href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+            <!-- Reference to jQuery library -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+            <!-- Reference to Popper positioning engine -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+            <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+            <!-- Reference to Bootstrap -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+            <!-- <script src="https://maxcdn.bootsrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> --> 
+
+            <link rel="stylesheet" 
+                href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+                integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
+                crossorigin="anonymous">
+
+    </head> <!-- End of Head Section -->
+
+    <!-- Body Section -->
+    <body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+        <!-- Container div -->
+        <div class="container-fluid">
+            <h1>Colunas de Layout Automático</h1>
+            <p>No Bootstrap 4, há uma maneira fácil de criar colunas de 
+                comprimento igual: apenas use a classe <code>.col-size</code>
+                em um especificado número de elementos. O Bootstrap irá 
+                reconhecer quantas colunas estão ali e cada coluna terá o mesmo 
+                comprimento.</p>
+            <p>Duas colunas: 50% de comprimento em todas as telas, exceto para as 
+                extra pequenas (100% de comprimento em telas com menos de 
+                <strong>576px</strong> de comprimento)</p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm bg-success">1 de 2</div>
+                    <div class="col-sm bg-warning">2 de 2</div>   
+                </div>
+            </div>
+            <br>
+            
+            <p>Quatro colunas: 25% de comprimento em todas as telas, exceto 
+                para as extra pequenas (100% de comprimento em telas com menos de 
+                <strong>576px</strong> de comprimento)</p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm bg-success">1 de 4</div>
+                    <div class="col-sm bg-warning">2 de 4</div>
+                    <div class="col-sm bg-success">3 de 4</div>
+                    <div class="col-sm bg-warning">4 de 4</div>
+                </div>
+            </div>    
+        </div> <!-- End of Container div -->
+
+    </body> <!-- End of Body Section -->
+   
+</html> <!-- End Of HTML file -->
