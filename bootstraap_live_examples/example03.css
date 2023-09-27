@@ -1,0 +1,37 @@
+body {
+
+    background-image: linear-gradient( to right, black, grey );
+
+}
+
+label.form-label {
+
+    color: lightgray;
+
+}
+
+label.form-check-label {
+
+    color: blue;
+
+}
+
+input#inputEmail.form-control {
+
+    background-color: black;
+    color: white;
+
+}
+
+input#inputPassword.form-control {
+
+    background-color: black;
+    color: white;
+
+}
+
+button.btn.btn-warning {
+
+    color: gray;
+
+}

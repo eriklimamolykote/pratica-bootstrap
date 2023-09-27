@@ -1,0 +1,23 @@
+body {
+
+    background-image: linear-gradient( to right, black, grey );
+
+}
+
+h2, p {
+
+    color: white; 
+
+}
+
+a.termsUse {
+
+    color: yellow;
+
+}
+
+a.privacyPolicy {
+
+    color: yellow;
+    
+}

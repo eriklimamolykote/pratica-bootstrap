@@ -1,0 +1,51 @@
+body {
+
+    background-image: linear-gradient( to right, black, grey );
+
+}
+
+.demo-content {
+
+    padding: 15px;
+    font-size: 18px;
+    min-height: 50px;
+    background: #dbdfe5;
+    margin-bottom: 15px;
+
+}
+
+.demo-content.bg-alt {
+
+    background: #abb1b8;
+
+}
+
+h2.text-center {
+
+    color: white;
+
+}
+
+div.demo-content {
+
+    background-image: linear-gradient( to right, blue, black );
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+
+div.demo-content.bg-alt {
+
+    background-image: linear-gradient( to right, darkgreen, black );
+    border: 1px solid white;
+    padding: 10px;
+
+}
+
+p.copyright {
+
+    color: lightgray;
+    padding: 20px;
+
+}
