@@ -1,0 +1,12 @@
+body {
+
+    background-image: linear-gradient( to right, black, blue );
+
+}
+
+label.form-check-label {
+
+    font-family: sans-serif;
+    color: white;
+    
+}

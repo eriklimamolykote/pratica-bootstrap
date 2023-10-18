@@ -1,0 +1,20 @@
+body {
+
+    background-image: linear-gradient( to right, black, gray );
+
+}
+
+label.form-check-label {
+
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+input.form-control {
+
+    background-image: linear-gradient( to right, black, gray );
+    border: 1px solid white;
+    width: fit-content;
+
+}
